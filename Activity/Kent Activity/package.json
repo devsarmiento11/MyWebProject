@@ -1,0 +1,16 @@
+{
+  "name": "pangasinan-heritage-trails-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "next lint",
+    "preview": "node scripts/serve-static.mjs"
+  },
+  "dependencies": {
+    "next": "14.2.31",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
