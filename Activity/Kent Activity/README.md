@@ -64,3 +64,20 @@ Run Lighthouse in **Google Chrome** on the deployed GitHub Pages URL. Audit thes
 
 Save a screenshot or PDF of the Lighthouse results for Google Classroom submission.
 
+
+## Verified Activity 2 results
+
+The public GitHub Pages deployment was verified on September 9, 2026. All four content pages and 26 internal links/assets loaded successfully. Mobile menu, destination navigation, and responsive widths of 375 px and 1440 px were checked.
+
+| Lighthouse category | Mobile score | Required |
+| --- | ---: | ---: |
+| Performance | 98 | 80 |
+| Accessibility | 100 | 85 |
+| Best Practices | 100 | 85 |
+| SEO | 100 | 90 |
+
+Audit: Google Lighthouse 13.4.1 with Chrome, mobile navigation and simulated throttling, against the live website. Scores may vary between runs.
+
+Submission evidence is in the repository-root Activity-2-Submission folder. The PDF summary is output/pdf/Activity-2-Lighthouse-Results.pdf. The original Lighthouse HTML and JSON reports are included. Google Classroom submission remains the student's final step.
+
+The deployment workflow is located at the repository root in .github/workflows/deploy-pages.yml; it builds the application in Activity/Kent Activity and publishes its out directory.
