@@ -28,7 +28,8 @@ This project is the Activity 2 continuation of the Activity 1 prototype. It uses
 ## Run locally
 
 ```bash
-npm install
+cd "Activity/Kent Activity"
+npm ci
 npm run dev
 ```
 
@@ -63,4 +64,5 @@ Run Lighthouse in **Google Chrome** on the deployed GitHub Pages URL. Audit thes
 - SEO — target **90 or higher**
 
 Save a screenshot or PDF of the Lighthouse results for Google Classroom submission.
+
 
