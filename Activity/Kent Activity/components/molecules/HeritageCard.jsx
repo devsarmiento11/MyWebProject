@@ -18,10 +18,11 @@ export default function HeritageCard({ site, index = 0 }) {
         <h3>{site.shortName}</h3>
         <p className="place-location"><Icon name="location" /> {site.location}</p>
         <p>{site.summary}</p>
-        <Button href={`/sites/${site.slug}/`} variant="text" aria-label={`Explore ${site.shortName}`}>
+        <Button href={`/sites/${site.slug}/`} variant="text" aria-label={`Open guide: ${site.shortName}`}>
           Open guide <Icon name="arrow" />
         </Button>
       </div>
     </article>
   );
 }
+

@@ -5,8 +5,8 @@ export default function HeaderNavigation() {
   return (
     <header className="site-header">
       <div className="nav-shell">
-        <Link className="brand" href="/" aria-label="Pangasinan Coast and Culture home">
-          <span className="brand-mark">P</span>
+        <Link className="brand" href="/" aria-label="Coast & Culture Pangasinan home">
+          <span className="brand-mark" aria-hidden="true">P</span>
           <span className="brand-copy">
             <strong>Coast & Culture</strong>
             <small>Pangasinan</small>
@@ -35,3 +35,4 @@ export default function HeaderNavigation() {
     </header>
   );
 }
+
